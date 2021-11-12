@@ -1,0 +1,9 @@
+
+display: flex => Alinha os itens lado a lado, pois por padrão é flex-direction: row;
+
+flex-wrap => O wrap quebra a linha caso algum item do container dê overflow; nowrap é o padrão e não quebra linha; wrap-reverse vai quebrar a linha de baixopra cima.
+
+flex: 1 (Ou qualquer valor) => Ocupa mais espaço dentre os demais itens, aplicar em todos os itens irá fazelos preencher o container todo.
+
+flex-direction => Define a direção dos itens, column é no eixo Y, row é no eixo X. Também pode dar reverse para alternar a ordem dos itens.
+
