@@ -2,7 +2,7 @@
 * São todos os comandos e resumidos, mas não estão com todas as propriedades dos comandos *
 * Acesse o guia do curso pra ter tudo detalhadamente: https://origamid.com/projetos/flexbox-guia-completo/ *
 
--> Flex Container, propriedades aplicadas ao container <-
+--> Flex Container, propriedades aplicadas ao container <--
 
 display: flex => Alinha os itens lado a lado, pois por padrão é flex-direction: row;
 
@@ -18,8 +18,21 @@ justify-content => Alinha os itens do container, essa propriedade não funciona 
 
 align-items => Alinha os itens de acordo com o eixo do container.
 
-align-content => Alinha as linhas do container em relação ao eixo vertical. Tem que tar com flex-wrap: wrap para ela funcionar.
+align-content  => Alinha as linhas do container em relação ao eixo vertical. Tem que tar com flex-wrap: wrap para ela funcionar.
 
--> Flex Items, propriedades aplicadas nos itens do container com display: flex <-
+--> Flex Items, propriedades aplicadas nos itens do container com display: flex <--
 
-flex-grow: Define a habilidade de um flex item de crescer. Por padrão é 0
+flex-grow => Define a habilidade de um flex item de crescer. Por padrão é 0.
+
+flex-basis => Indica o tamanho inicial do flex item antes da distribuição do espaço restante.
+
+flex-shrink = > Define a capacidade der edução do tamanho do item. Por padrão é 1. Ele é mais influenciavel quando você tem um flex-basis fixo.
+
+flex => Atalho para as propriedades grow, shrink e basis. (Recomendado pq ele ajuste a únidade passada para todos os browsers).
+
+order => Usado para ordernar os itens, sendo que cada valor passado irá ditar a ordem do item. 
+
+align-self => Serve pra definir o alinhamento de um único item específico do flex item.
+
+* Essas anotações foram feitas durante as aulas do curso de css flexbox da ORIGAMID *
+* Acesse o guia do curso pra ter tudo detalhadamente: https://origamid.com/projetos/flexbox-guia-completo/ *
