@@ -1,3 +1,8 @@
+-- Anotações do curso de Flexbox --
+* São todos os comandos e resumidos, mas não estão com todas as propriedades dos comandos *
+* Acesse o guia do curso pra ter tudo detalhadamente: https://origamid.com/projetos/flexbox-guia-completo/ *
+
+-> Flex Container, propriedades aplicadas ao container <-
 
 display: flex => Alinha os itens lado a lado, pois por padrão é flex-direction: row;
 
@@ -7,3 +12,14 @@ flex: 1 (Ou qualquer valor) => Ocupa mais espaço dentre os demais itens, aplica
 
 flex-direction => Define a direção dos itens, column é no eixo Y, row é no eixo X. Também pode dar reverse para alternar a ordem dos itens.
 
+flex-flow => É um atalho pra flex-direction e flex-wrap, tipo pode usar flex-flow: row nowrap, ou flex-flow: column nowerap.
+
+justify-content => Alinha os itens do container, essa propriedade não funciona se vc definir o peso, tipo flex: 1.
+
+align-items => Alinha os itens de acordo com o eixo do container.
+
+align-content => Alinha as linhas do container em relação ao eixo vertical. Tem que tar com flex-wrap: wrap para ela funcionar.
+
+-> Flex Items, propriedades aplicadas nos itens do container com display: flex <-
+
+flex-grow: Define a habilidade de um flex item de crescer. Por padrão é 0
