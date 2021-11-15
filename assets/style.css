@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d1c1c;
+    color: white;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+
+header{
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header p{
+    font-size: 0.80rem;
+}
+
+header a{
+    color: white;
+}
+
+section{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.cursos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso .tituloProjeto{
+    font-size: 1.7rem;
+}
+
+.curso p{
+    font-size: 0.70rem;
+    font-style: italic;
+}
+
+.curso img{
+    border: 2px solid rgb(255, 255, 255);
+    width: 90%;
+    transition: 1s;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+.curso img:hover{
+    transform: scale(1.02);
+}
