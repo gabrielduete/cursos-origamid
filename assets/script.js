@@ -39,7 +39,6 @@ function adicionaElementos(div, p1, p2, img){
 
     divCurso.className = 'curso'
     div.className = 'cursos'
-
 }
 
 geraCurso()
