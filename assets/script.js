@@ -1,6 +1,6 @@
 let cursos = [
     {
-        titulo: 'Flexbog',
+        titulo: 'Flexbox',
         img: 'assets/img/flexbox-img.png',
         link: 'cursos/flexbox/projeto/index.html'
     },
