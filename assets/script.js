@@ -1,9 +1,108 @@
 let cursos = [
     {
         titulo: 'Flexbog',
-        descricao: 'HTML e CSS FLEXBOX',
-        img: '/assets/img/Screenshot_1.png',
-        link: ''
+        img: 'assets/img/flexbox-img.png',
+        link: 'cursos/flexbox/projeto/index.html'
+    },
+    {
+        titulo: 'CSS Grid Layout',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'Javascript Completo ES6',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'HTML e CSS para Iniciantes (BETA)',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'UI Design Avançado',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'React Completo',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'CSS GRID',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'WordPress REST API Dogs',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'Redux com React',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'CSS Avançado Posicionamento',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'Tipografia Avançada',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'CSS com SASS',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'UX Design Heurísticas',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'Adobe XD',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'Vue.js 2 Completo',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'WordPress REST API',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'WooCommerce Como CMS',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'Bootstrap 4',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'Automação Front End com NPM',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'JavaScript e jQuery',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
+    },
+    {
+        titulo: 'Web Design Completo',
+        img: 'https://thumbs.gfycat.com/BackIllinformedAsianelephant-size_restricted.gif',
+        link: '#'
     },
 ]
 
@@ -18,23 +117,25 @@ function geraCurso(){
 
 function criaElementos(curso){
     const tituloProjeto = document.createElement('p')
-    const descricao = document.createElement('p')
+    const link = document.createElement('a')
     const imagemProjeto = document.createElement('img')
     
     tituloProjeto.textContent = curso.titulo
-    descricao.textContent = curso.descricao
     imagemProjeto.src = curso.img
+    imagemProjeto.href = curso.link
+    link.appendChild(imagemProjeto)
+    link.href = curso.link
+    link.target = '_blank'
 
     tituloProjeto.className = 'tituloProjeto'
 
-    adicionaElementos(divCursos, tituloProjeto, descricao, imagemProjeto)
+    adicionaElementos(divCursos, tituloProjeto, link)
 }
 
-function adicionaElementos(div, p1, p2, img){
+function adicionaElementos(div, p1, a){
     let divCurso = document.createElement('div')
     divCurso.appendChild(p1)
-    divCurso.appendChild(p2)
-    divCurso.appendChild(img)
+    divCurso.appendChild(a)
     div.appendChild(divCurso)
 
     divCurso.className = 'curso'

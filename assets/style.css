@@ -27,10 +27,6 @@ header{
     align-items: center;
 }
 
-header p{
-    font-size: 0.80rem;
-}
-
 header a{
     color: white;
 }
@@ -46,13 +42,18 @@ section{
 .cursos{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .curso{
+    margin: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    flex: 1;
 }
 
 .curso .tituloProjeto{
@@ -66,11 +67,11 @@ section{
 
 .curso img{
     border: 2px solid rgb(255, 255, 255);
-    width: 90%;
+    max-width: 400px;
+    height: 300px;
     transition: 1s;
     border-radius: 8px;
     cursor: pointer;
-    margin-top: 2%;
 }
 
 .curso img:hover{
