@@ -1,4 +1,6 @@
 # Cursos da Origamid 🐺💜
+* Anotações e exercícios resolvidos durante o cursos de Front-end/Design UI da Origamid.
+* Se quiser visualizar os projetos, desenvolvi um site simples apenas para mostrar os projetos, ou clique nos projetos da tabela para visualizar.
 
 ## 💻 Site mostrando todos os cursos/projetos: https://gabrielduete.github.io/cursos-origamid/
 
