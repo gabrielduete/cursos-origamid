@@ -5,7 +5,7 @@
 ## 💻 Ou veja por aqui.
 | Curso  |  Status  |  Projeto  |
 | ------------------- | ------------------- | ------------------- |
-|  Flexbox |  100%  |  FlexBlog  |
+|  Flexbox |  100%  |  [FlexBlog](https://gabrielduete.github.io/cursos-origamid/cursos/flexbox/projeto/index.html)  |
 |  CSS Grid Layout | 0% | Loading... |
 |  Javascript Completo ES6 | 0% | Loading... |
 |  HTML e CSS para Iniciantes (BETA) | 0% | Loading... |
