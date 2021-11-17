@@ -1,6 +1,6 @@
 # Cursos da Origamid 🐺💜
 
-## 💻 Site mostrando todos os cursos/projetos: 
+## 💻 Site mostrando todos os cursos/projetos: https://gabrielduete.github.io/cursos-origamid/
 
 ## 💻 Ou veja por aqui.
 | Curso  |  Status  |  Projeto  |
