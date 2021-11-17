@@ -2,7 +2,7 @@
 
 ## 💻 Site mostrando todos os cursos/projetos: https://gabrielduete.github.io/cursos-origamid/
 
-## 💻 Ou veja por aqui.
+## 💻 Ou veja por aqui, clique no projeto para visualizar.
 | Curso  |  Status  |  Projeto  |
 | ------------------- | ------------------- | ------------------- |
 |  Flexbox |  100%  |  [FlexBlog](https://gabrielduete.github.io/cursos-origamid/cursos/flexbox/projeto/index.html)  |
