@@ -8,10 +8,10 @@
 | Curso  |  Status  |  Projeto  |
 | ------------------- | ------------------- | ------------------- |
 |  Flexbox |  100%  |  [FlexBlog](https://gabrielduete.github.io/cursos-origamid/cursos/flexbox/projeto/index.html)  |
-|  CSS Grid Layout | 0% | Loading... |
+|  CSS Grid Layout | 50% | Loading... |
 |  Javascript Completo ES6 | 0% | Loading... |
 |  HTML e CSS para Iniciantes (BETA) | 0% | Loading... |
-|  UI Design Avançado | 0% | Loading... |
+|  UI Design Avançado | 20% | Loading... |
 |  React Completo | 0% | Loading... |
 |  CSS GRID | 0% | Loading... |
 |  WordPress REST API Dogs | 0% | Loading... |
