@@ -11,7 +11,7 @@
 |  CSS Grid Layout | 50% | Loading... |
 |  Javascript Completo ES6 | 0% | Loading... |
 |  HTML e CSS para Iniciantes (BETA) | 0% | Loading... |
-|  UI Design Avançado | 20% | Loading... |
+|  UI Design Avançado | 70% | Loading... |
 |  React Completo | 0% | Loading... |
 |  CSS GRID | 0% | Loading... |
 |  WordPress REST API Dogs | 0% | Loading... |
