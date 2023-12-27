@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redux - Desafio</title>
+    <script src="../organizacao/immer.umd.production.min.js"></script>
+    <script src="../redux.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <p id="aluno"></p>
+      <p id="aulasCompletas"></p>
+    </main>
+    <script type="module">
+      import store from './store/configureStore.js'
+      import { incrementarTempo } from './store/aluno.js'
+
+      const render = () => {
+        const { aluno, aulas } = store.getState()
+
+        const alunoContent = document.getElementById('aluno')
+        alunoContent.innerHTML = `Nome: ${aluno.nome}<br/>Email: ${aluno.email}<br/>Dias restantes: ${aluno.diasRestantes}`
+
+        const aulasCompletas = aulas
+          .filter((aula) => aula.completa)
+          .map((aula) => '\n' + aula.nome)
+
+        const aulasContent = document.getElementById('aulasCompletas')
+        aulasContent.innerHTML = `Aulas Completas:${aulasCompletas}`
+      }
+
+      store.dispatch(incrementarTempo())
+    </script>
+  </body>
+</html>
